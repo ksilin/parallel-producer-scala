@@ -1,0 +1,28 @@
+local {
+  kafka {
+    bootstrap = "localhost:29092"
+  }
+  sr{
+    url = "localhost:8083"
+  }
+}
+
+ccloud {
+
+  kafka {
+    bootstrap = "pkc-*.confluent.cloud:9092"
+
+    principal = sa-*
+    key = *
+    secret = "*"
+  }
+  sr {
+    url = "https://psrc-*.confluent.cloud"
+    key = *
+    secret = "*"
+  }
+}
+
+
+
+

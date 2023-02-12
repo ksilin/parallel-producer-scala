@@ -1,0 +1,47 @@
+# sbt
+.bsp
+lib_managed
+project/project
+target
+
+# Worksheets
+*.sc
+
+# Eclipse
+.cache*
+.classpath
+.project
+.scala_dependencies
+.settings
+.target
+.worksheet
+
+# IntelliJ
+.idea
+
+# ENSIME
+.ensime
+.ensime_cache
+.ensime_lucene
+
+# VSCode
+.vscode
+
+# Mac
+.DS_Store
+
+# Akka
+ddata*
+journal
+snapshots
+
+# Log files
+*.log
+
+# jenv
+.java-version
+
+# Metals
+.bloop
+.metals
+metals.sbt
